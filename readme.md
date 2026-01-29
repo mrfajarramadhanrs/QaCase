@@ -1,15 +1,12 @@
-# Introduction
+# QA Case Study
 
-this repository will have a case that you need to analyze and solve
+This repo shows how I approach testing - from analyzing what needs testing to designing test cases and figuring out what should be automated. The goal here isn't to write every possible test, but to show how I think about QA, spot risks, and communicate clearly.
 
-## Before you start
+## What's Inside
+- `case.md` – testing approach, what I'm covering (and what I'm not), assumptions I made, and how I read the results
+- `manual/` – The actual test cases I'd run by hand, including edge cases and functional scenarios
+- `automation/` – Which tests I think should be automated and why
 
-1. Fork the repository
-
-## Todos
-
-1. Read [case](./case.md)
-2. Pour your test cases into two categories, manual and automations
-3. Structure the repository to your preferable structure, on how you work, whatever tools you want
-4. Fill in how to read your results in a [case.md](./testcases/readme.md)
-5. Submit back your Fork Url
+## How I Work
+- I write manual tests in Markdown because it's simple and easy to track
+- For automation, I pick the tests that catch regressions and matter most - wrote these with Playwright in mind
